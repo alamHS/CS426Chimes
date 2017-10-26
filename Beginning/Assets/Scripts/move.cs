@@ -8,14 +8,11 @@ public class move : MonoBehaviour {
 	public float speed = 25.0f;
 	public float rotationSpeed = 90;
 	public float force = 700f;
-<<<<<<< HEAD
 
-=======
 	public GameObject cannon;
 	public GameObject bullet1;
 	public GameObject bullet3;
 	public GameObject bullet2;
->>>>>>> 275414c3d0dae310c33ee632c9e835ec052c240a
 
 	Rigidbody rb;
 	Transform t;
@@ -27,7 +24,6 @@ public class move : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
-<<<<<<< HEAD
 		if (Input.GetKey (KeyCode.UpArrow))
 			rb.velocity -= this.transform.forward * speed * Time.deltaTime;
 		else if (Input.GetKey (KeyCode.DownArrow))
@@ -39,18 +35,7 @@ public class move : MonoBehaviour {
 		if (Input.GetKeyDown (KeyCode.Space))
 			rb.AddForce (t.up * force);
 		
-=======
-		if (Input.GetKey(KeyCode.UpArrow))
-			rb.velocity += this.transform.forward * speed * Time.deltaTime;
-		else if (Input.GetKey(KeyCode.DownArrow))
-			rb.velocity -= this.transform.forward * speed * Time.deltaTime;
 
-		if (Input.GetKey(KeyCode.RightArrow))
-			t.rotation *= Quaternion.Euler(0, rotationSpeed * Time.deltaTime, 0);
-		else if (Input.GetKey(KeyCode.LeftArrow))
-			t.rotation *= Quaternion.Euler(0, -rotationSpeed * Time.deltaTime, 0);
-		if (Input.GetKeyDown (KeyCode.Space))
-			rb.AddForce (t.up * force);
 
 		if(Input.GetKeyDown(KeyCode.W))
 		{
@@ -70,7 +55,6 @@ public class move : MonoBehaviour {
 			newBullet.GetComponent<Rigidbody>().velocity += Vector3.up * 10;
 			newBullet.GetComponent<Rigidbody>().AddForce(newBullet.transform.forward * 1000);
 		}
->>>>>>> 275414c3d0dae310c33ee632c9e835ec052c240a
 	}
 
 }

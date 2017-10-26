@@ -1,0 +1,3557 @@
+Initialize engine version: 2017.1.0f3 (472613c02cf7)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) HD Graphics 5500 (ID=0x1616)
+    Vendor:   Intel
+    VRAM:     1642 MB
+    Driver:   20.19.15.4549
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Hibah\Documents\CS426Chimes\Beginning\chimesBarebone_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Hibah\Documents\CS426Chimes\Beginning\chimesBarebone_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Hibah\Documents\CS426Chimes\Beginning\chimesBarebone_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading C:\Users\Hibah\Documents\CS426Chimes\Beginning\chimesBarebone_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\Hibah\Documents\CS426Chimes\Beginning\chimesBarebone_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Hibah\Documents\CS426Chimes\Beginning\chimesBarebone_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Hibah\Documents\CS426Chimes\Beginning\chimesBarebone_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Hibah\Documents\CS426Chimes\Beginning\chimesBarebone_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\Hibah\Documents\CS426Chimes\Beginning\chimesBarebone_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\Hibah\Documents\CS426Chimes\Beginning\chimesBarebone_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\Hibah\Documents\CS426Chimes\Beginning\chimesBarebone_Data\Managed\UnityEngine.Timeline.dll (this message is harmless)
+Loading C:\Users\Hibah\Documents\CS426Chimes\Beginning\chimesBarebone_Data\Managed\UnityEngine.Timeline.dll into Unity Child Domain
+Platform assembly: C:\Users\Hibah\Documents\CS426Chimes\Beginning\chimesBarebone_Data\Managed\System.dll (this message is harmless)
+Platform assembly: C:\Users\Hibah\Documents\CS426Chimes\Beginning\chimesBarebone_Data\Managed\System.Core.dll (this message is harmless)
+- Completed reload, in  0.032 seconds
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+The tree Cactus_Tall_02 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+ 
+(Filename:  Line: 140)
+
+UnloadTime: 2.728741 ms
+TerrainCollider: MeshCollider is not supported on terrain at the moment.
+ 
+(Filename:  Line: 188)
+
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 1590 -> priority: 1 
+  Thread -> id: 3b20 -> priority: 1 
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+Internal: JobTempAlloc has allocations that are more than 4 frames old - this is not allowed and likely a leak
+ 
+(Filename:  Line: 371)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at NewBehaviourScript.attack () [0x00000] in <filename unknown>:0 
+  at NewBehaviourScript.FixedUpdate () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
