@@ -1,0 +1,156 @@
+fileFormatVersion: 2
+guid: 302a9963c63b2d240b1a9b14dfad943e
+timeCreated: 1456262269
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Chest
+    100002: Cylinder01
+    100004: Head
+    100006: //RootNode
+    100008: L_arm_lowe
+    100010: L_Arm_uppe
+    100012: L_Foot
+    100014: L_Hand
+    100016: L_Leg_lowe
+    100018: L_Thigh
+    100020: Neck
+    100022: R_arm_lowe
+    100024: R_Arm_uppe
+    100026: R_Foot
+    100028: R_Hand
+    100030: R_Leg_lowe
+    100032: R_Thigh
+    400000: Chest
+    400002: Cylinder01
+    400004: Head
+    400006: //RootNode
+    400008: L_arm_lowe
+    400010: L_Arm_uppe
+    400012: L_Foot
+    400014: L_Hand
+    400016: L_Leg_lowe
+    400018: L_Thigh
+    400020: Neck
+    400022: R_arm_lowe
+    400024: R_Arm_uppe
+    400026: R_Foot
+    400028: R_Hand
+    400030: R_Leg_lowe
+    400032: R_Thigh
+    2300000: Chest
+    2300002: Cylinder01
+    2300004: Head
+    2300006: //RootNode
+    2300008: L_arm_lowe
+    2300010: L_Arm_uppe
+    2300012: L_Foot
+    2300014: L_Hand
+    2300016: L_Leg_lowe
+    2300018: L_Thigh
+    2300020: Neck
+    2300022: R_arm_lowe
+    2300024: R_Arm_uppe
+    2300026: R_Foot
+    2300028: R_Hand
+    2300030: R_Leg_lowe
+    2300032: R_Thigh
+    3300000: Chest
+    3300002: Cylinder01
+    3300004: Head
+    3300006: //RootNode
+    3300008: L_arm_lowe
+    3300010: L_Arm_uppe
+    3300012: L_Foot
+    3300014: L_Hand
+    3300016: L_Leg_lowe
+    3300018: L_Thigh
+    3300020: Neck
+    3300022: R_arm_lowe
+    3300024: R_Arm_uppe
+    3300026: R_Foot
+    3300028: R_Hand
+    3300030: R_Leg_lowe
+    3300032: R_Thigh
+    4300000: Waist
+    4300002: R_Thigh
+    4300004: R_Leg_lowe
+    4300006: R_Foot
+    4300008: L_Thigh
+    4300010: L_Leg_lowe
+    4300012: L_Foot
+    4300014: Chest
+    4300016: L_Arm_uppe
+    4300018: L_arm_lowe
+    4300020: L_Hand
+    4300022: R_Arm_uppe
+    4300024: R_arm_lowe
+    4300026: R_Hand
+    4300028: Cylinder01
+    4300030: Neck
+    4300032: Head
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
