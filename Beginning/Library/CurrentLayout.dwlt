@@ -42,10 +42,17 @@ MonoBehaviour:
     y: 30
     width: 1350
     height: 619
+<<<<<<< HEAD
   m_MinSize: {x: 477, y: 442}
   m_MaxSize: {x: 8002, y: 8042}
   vertical: 0
   controlID: 88
+=======
+  m_MinSize: {x: 434, y: 442}
+  m_MaxSize: {x: 14004, y: 10021}
+  vertical: 0
+  controlID: 9
+>>>>>>> parent of 324ba15... Revert "version controlled"
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -64,9 +71,15 @@ MonoBehaviour:
     y: 0
     width: 277
     height: 619
+<<<<<<< HEAD
   m_MinSize: {x: 275, y: 50}
   m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 13}
+=======
+  m_MinSize: {x: 232, y: 271}
+  m_MaxSize: {x: 10002, y: 10021}
+  m_ActualView: {fileID: 11}
+>>>>>>> parent of 324ba15... Revert "version controlled"
   m_Panes:
   - {fileID: 13}
   - {fileID: 10}
@@ -89,6 +102,7 @@ MonoBehaviour:
     x: 0
     y: 398
     width: 1073
+<<<<<<< HEAD
     height: 221
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
@@ -97,6 +111,15 @@ MonoBehaviour:
   - {fileID: 14}
   - {fileID: 17}
   - {fileID: 12}
+=======
+    height: 271
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
+  m_ActualView: {fileID: 13}
+  m_Panes:
+  - {fileID: 13}
+  - {fileID: 16}
+>>>>>>> parent of 324ba15... Revert "version controlled"
   m_Selected: 0
   m_LastSelected: 1
 --- !u!114 &5
@@ -186,7 +209,11 @@ MonoBehaviour:
   m_MinSize: {x: 202, y: 442}
   m_MaxSize: {x: 4002, y: 8042}
   vertical: 1
+<<<<<<< HEAD
   controlID: 89
+=======
+  controlID: 10
+>>>>>>> parent of 324ba15... Revert "version controlled"
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -318,10 +345,17 @@ MonoBehaviour:
   m_LastProjectPath: C:\Users\Hibah\Documents\CS426Chimes\Beginning
   m_IsLocked: 0
   m_FolderTreeState:
+<<<<<<< HEAD
     scrollPos: {x: 0, y: 59}
     m_SelectedIDs: 4c2a0000
     m_LastClickedID: 10828
     m_ExpandedIDs: 00000000b2260000d62700007c2900004c2a0000bc2a0000742b0000822d0000902d0000f22d000000ca9a3bffffff7f
+=======
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: f02c0000
+    m_LastClickedID: 11504
+    m_ExpandedIDs: 00000000b2260000d427000076290000462a0000b62a00006e2b00007c2d00008a2d0000ec2d000000ca9a3bffffff7f
+>>>>>>> parent of 324ba15... Revert "version controlled"
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -374,9 +408,15 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
+<<<<<<< HEAD
     m_SelectedInstanceIDs: 18270000
     m_LastClickedInstanceID: 10008
     m_HadKeyboardFocusLastEvent: 0
+=======
+    m_SelectedInstanceIDs: 
+    m_LastClickedInstanceID: 0
+    m_HadKeyboardFocusLastEvent: 1
+>>>>>>> parent of 324ba15... Revert "version controlled"
     m_ExpandedInstanceIDs: 76050000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -467,7 +507,11 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
+<<<<<<< HEAD
     m_ExpandedIDs: d698fdff6c99fdfff69afdfff87fffff18b2ffff6af1ffffbaf3fffff2f4ffff1afcffff00000000
+=======
+    m_ExpandedIDs: 86ebffff6cedffff1afcffff00000000ea2e0000
+>>>>>>> parent of 324ba15... Revert "version controlled"
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
