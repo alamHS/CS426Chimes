@@ -11,7 +11,6 @@ public class PuzzleScript : MonoBehaviour {
 	public GameObject switch3;
 	public GameObject switch4;
 	public GameObject switch5;
-	Renderer wallRenderer;
 	Renderer colorSwitch1;
 	Renderer colorSwitch2;
 	Renderer colorSwitch3;
@@ -20,20 +19,19 @@ public class PuzzleScript : MonoBehaviour {
 	//Rigidbody rb;
 	int[] solutionArray;
 	//int[] playerArray;
-	int[] test2 = new int[5];
+	int[] test2 = new int[3];
 
 	// Use this for initialization
-	void Start () {
-		solutionArray = generateSolution ();
-
-		for(int i=0;i<solutionArray.Length;i++)
-			Debug.Log (solutionArray[i]);
-		
+	void Start () {		
 		colorSwitch1 = switch1.GetComponent<Renderer> ();
 		colorSwitch2 = switch2.GetComponent<Renderer> ();
 		colorSwitch3 = switch3.GetComponent<Renderer> ();
 		colorSwitch4 = switch4.GetComponent<Renderer> ();
 		colorSwitch5 = switch5.GetComponent<Renderer> ();
+
+		solutionArray = generateSolution ();
+		for(int i=0;i<solutionArray.Length;i++)
+			Debug.Log (solutionArray[i]);
 	}
 	
 	// Update is called once per frame
@@ -52,6 +50,10 @@ public class PuzzleScript : MonoBehaviour {
 			else {
 				colorSwitch1.material.color = Color.red;
 				solutionArray = generateSolution ();
+				colorSwitch2.material.color = Color.white;
+				colorSwitch3.material.color = Color.white;
+				colorSwitch4.material.color = Color.white;
+				colorSwitch5.material.color = Color.white;
 			}
 		}
 		if (tag == "2") {
@@ -60,6 +62,10 @@ public class PuzzleScript : MonoBehaviour {
 			else {
 				colorSwitch2.material.color = Color.red;
 				solutionArray = generateSolution ();
+				colorSwitch1.material.color = Color.white;
+				colorSwitch3.material.color = Color.white;
+				colorSwitch4.material.color = Color.white;
+				colorSwitch5.material.color = Color.white;
 				}
 			}
 		if (tag == "3") {
@@ -68,6 +74,10 @@ public class PuzzleScript : MonoBehaviour {
 			else{
 				colorSwitch3.material.color = Color.red;
 				solutionArray = generateSolution ();
+				colorSwitch1.material.color = Color.white;
+				colorSwitch2.material.color = Color.white;
+				colorSwitch4.material.color = Color.white;
+				colorSwitch5.material.color = Color.white;
 			}
 		}
 		if (tag == "4") {
@@ -76,6 +86,10 @@ public class PuzzleScript : MonoBehaviour {
 			else{
 				colorSwitch4.material.color = Color.red;
 				solutionArray = generateSolution ();
+				colorSwitch1.material.color = Color.white;
+				colorSwitch2.material.color = Color.white;
+				colorSwitch3.material.color = Color.white;
+				colorSwitch5.material.color = Color.white;
 			}
 		}
 		if (tag == "5") {
@@ -84,12 +98,15 @@ public class PuzzleScript : MonoBehaviour {
 			else{
 				colorSwitch5.material.color = Color.red;
 				solutionArray = generateSolution ();
+				colorSwitch1.material.color = Color.white;
+				colorSwitch2.material.color = Color.white;
+				colorSwitch3.material.color = Color.white;
+				colorSwitch4.material.color = Color.white;
 			}
 		}
 
 		if (verifySolution() == true) {
 			Debug.Log ("open gate");
-			//wall.GetComponent<Renderer>().enabled = false;
 			Destroy(GameObject.Find(wall.name));
 		} 
 		else {
