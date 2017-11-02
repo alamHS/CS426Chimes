@@ -26,13 +26,11 @@ public class BossAI : MonoBehaviour {
             look();
 
         }
-        if (playerdistance < attackdistance)
-        {
-            myrender.material.color = Color.red;
-            attack();
-        }
-        else
-        { myrender.material.color = Color.blue; }
+		if (playerdistance < attackdistance) {
+			myrender.material.color = Color.red;
+			attack ();
+		} else {
+		}//myrender.material.color = Color.blue; }
 
     }
     void look() {

@@ -62,6 +62,7 @@
      <Compile Include="Assets\Scripts\BossAI.cs" />
      <Compile Include="Assets\Scripts\EnemyAI.cs" />
      <Compile Include="Assets\Scripts\move.cs" />
+     <Compile Include="Assets\Scripts\Solution.cs" />
      <Compile Include="Assets\Scripts\WallAI.cs" />
      <None Include="Assets\CactusPack\Shaders\VertexBlend.shader" />
      <None Include="Assets\CactusPack\Readme.txt" />

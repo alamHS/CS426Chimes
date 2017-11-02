@@ -3,19 +3,26 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class WallAI : MonoBehaviour {
-
-	Rigidbody rumi;
-	Renderer color;
+	public Transform testwall;
+	Renderer colorRumi;
+	Renderer wallMesh;
+	public GameObject rumi;
 	// Use this for initialization
 	void Start () {
-		rumi = GetComponent<Rigidbody>();
-		color = GetComponent<Renderer>();
+		colorRumi = rumi.GetComponent<Renderer>();
+		wallMesh = GetComponent<Renderer>();
 
 		
 	}
 	
 	// Update is called once per frame
 	void Update () {
-		
-	}
+
+		if(colorRumi.material.color == Color.red)
+		{
+			wallMesh.enabled = false;
+		}
+                
+			
+}
 }
