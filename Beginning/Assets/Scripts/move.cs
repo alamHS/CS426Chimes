@@ -23,8 +23,8 @@ public class move : MonoBehaviour {
 	void Start () {
 		rb = GetComponent<Rigidbody> ();
 		t = GetComponent<Transform> ();
-		var Aclip = Resources.Load<AudioClip>("Recording (2)");
-		A.clip = Aclip;
+		//var Aclip = Resources.Load<AudioClip>("Recording (2)");
+		//A.clip = Aclip;
 	}
 
 	// Update is called once per frame
