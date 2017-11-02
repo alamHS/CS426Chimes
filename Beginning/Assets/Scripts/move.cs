@@ -13,6 +13,9 @@ public class move : MonoBehaviour {
 	public GameObject bullet1;
 	public GameObject bullet3;
 	public GameObject bullet2;
+	public GameObject bullet4;
+	public AudioSource A;
+
 
 	Rigidbody rb;
 	Transform t;
@@ -20,6 +23,8 @@ public class move : MonoBehaviour {
 	void Start () {
 		rb = GetComponent<Rigidbody> ();
 		t = GetComponent<Transform> ();
+		var Aclip = Resources.Load<AudioClip>("Recording (2)");
+		A.clip = Aclip;
 	}
 
 	// Update is called once per frame
@@ -42,6 +47,7 @@ public class move : MonoBehaviour {
 			GameObject newBullet = GameObject.Instantiate(bullet1, cannon.transform.position, cannon.transform.rotation) as GameObject;
 			newBullet.GetComponent<Rigidbody>().velocity += Vector3.up * 10;
 			newBullet.GetComponent<Rigidbody>().AddForce(newBullet.transform.forward * 1000);
+			A.Play();
 		}
 		if(Input.GetKeyDown(KeyCode.S))
 		{
@@ -52,6 +58,12 @@ public class move : MonoBehaviour {
 		if(Input.GetKeyDown(KeyCode.A))
 		{
 			GameObject newBullet = GameObject.Instantiate(bullet3, cannon.transform.position, cannon.transform.rotation) as GameObject;
+			newBullet.GetComponent<Rigidbody>().velocity += Vector3.up * 10;
+			newBullet.GetComponent<Rigidbody>().AddForce(newBullet.transform.forward * 1000);
+		}
+		if(Input.GetKeyDown(KeyCode.D))
+		{
+			GameObject newBullet = GameObject.Instantiate(bullet4, cannon.transform.position, cannon.transform.rotation) as GameObject;
 			newBullet.GetComponent<Rigidbody>().velocity += Vector3.up * 10;
 			newBullet.GetComponent<Rigidbody>().AddForce(newBullet.transform.forward * 1000);
 		}

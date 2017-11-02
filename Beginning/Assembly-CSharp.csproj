@@ -59,8 +59,9 @@
      <Compile Include="Assets\Cameras\Scripts\PivotBasedCameraRig.cs" />
      <Compile Include="Assets\Cameras\Scripts\ProtectCameraFromWallClip.cs" />
      <Compile Include="Assets\Cameras\Scripts\TargetFieldOfView.cs" />
+     <Compile Include="Assets\Scripts\BossAI.cs" />
+     <Compile Include="Assets\Scripts\EnemyAI.cs" />
      <Compile Include="Assets\Scripts\move.cs" />
-     <Compile Include="Assets\Scripts\NewBehaviourScript.cs" />
      <None Include="Assets\CactusPack\Shaders\VertexBlend.shader" />
      <None Include="Assets\CactusPack\Readme.txt" />
      <None Include="Assets\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Simple.shader" />

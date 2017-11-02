@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class NewBehaviourScript : MonoBehaviour {
+public class BossAI : MonoBehaviour {
     public float playerdistance;
     public float enemylookdistance;
     public float attackdistance;
