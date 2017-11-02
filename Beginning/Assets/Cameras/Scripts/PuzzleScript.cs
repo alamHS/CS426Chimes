@@ -17,7 +17,7 @@ public class PuzzleScript : MonoBehaviour {
 	Renderer colorSwitch4;
 	Renderer colorSwitch5;
 	//Rigidbody rb;
-	int[] solutionArray;
+	int[] solutionArray = new int[3];
 	//int[] playerArray;
 	int[] test2 = new int[3];
 
@@ -29,7 +29,10 @@ public class PuzzleScript : MonoBehaviour {
 		colorSwitch4 = switch4.GetComponent<Renderer> ();
 		colorSwitch5 = switch5.GetComponent<Renderer> ();
 
-		solutionArray = generateSolution ();
+		//solutionArray = generateSolution ();
+		solutionArray[0] = 1;
+		solutionArray[1] = 2;
+		solutionArray[2] = 3;
 		for(int i=0;i<solutionArray.Length;i++)
 			Debug.Log (solutionArray[i]);
 	}

@@ -5,6 +5,8 @@ using UnityEngine;
 
 public class move : MonoBehaviour {
 
+	public float artifactdistance;
+
 	public float speed = 25.0f;
 	public float rotationSpeed = 90;
 	public float force = 700f;
@@ -15,7 +17,7 @@ public class move : MonoBehaviour {
 	public GameObject bullet2;
 	public GameObject bullet4;
 	public AudioSource A;
-
+	public Transform artifact;
 
 	Rigidbody rb;
 	Transform t;
@@ -67,6 +69,9 @@ public class move : MonoBehaviour {
 			newBullet.GetComponent<Rigidbody>().velocity += Vector3.up * 10;
 			newBullet.GetComponent<Rigidbody>().AddForce(newBullet.transform.forward * 1000);
 		}
-	}
 
+		artifactdistance = Vector3.Distance(artifact.position, transform.position);
+		if(artifactdistance<100)
+			A.Play();
+	}
 }
