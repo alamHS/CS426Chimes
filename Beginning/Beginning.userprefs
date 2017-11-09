@@ -1,12 +1,13 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\move.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\CactusPack\Readme.txt">
     <Files>
       <File FileName="Assets\Scripts\move.cs" Line="51" Column="4" />
-      <File FileName="Assets\Scripts\EnemyAI.cs" Line="5" Column="14" />
-      <File FileName="Assets\Scripts\BossAI.cs" Line="33" Column="4" />
-      <File FileName="Assets\Scripts\Solution.cs" Line="12" Column="1" />
-      <File FileName="Assets\Scripts\WallAI.cs" Line="17" Column="2" />
+      <File FileName="Assets\Scripts\EnemyAI.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\BossAI.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Solution.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\WallAI.cs" Line="1" Column="1" />
+      <File FileName="Assets\CactusPack\Readme.txt" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
