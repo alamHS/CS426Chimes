@@ -5,6 +5,10 @@ using UnityEngine;
 
 public class PuzzleScript : MonoBehaviour {
 
+	bool canInteract = false;
+	float displayTime = 2.0f;
+	bool displayMsg = false;
+
 	public GameObject wall;
 	public GameObject switch1;
 	public GameObject switch2;
@@ -42,14 +46,100 @@ public class PuzzleScript : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		/*if (Input.GetKey (KeyCode.LeftShift)) 
-		{
-			Shoot ();
-		}*/
 
+		displayTime -= Time.deltaTime;
+		if (displayTime <= 0.0)
+			displayMsg = false;
+
+		RaycastHit hit;
+		Ray shootRay = new Ray (transform.position, Vector3.back);
+
+		if(Physics.Raycast(shootRay, out hit, 50))
+		{
+			if (hit.collider.tag == "Player") 
+			{
+				//Debug.Log("player detected");
+				canInteract = true;
+				displayMsg = true;
+				displayTime = 2.0f;
+			}
+		}
+
+		if (canInteract && (Input.GetKey (KeyCode.E))) 
+		{
+			if (tag == "1") {
+				if (solutionArray.Contains (1))
+					colorSwitch1.material.color = Color.green;
+				else {
+					colorSwitch1.material.color = Color.red;
+					solutionArray = generateSolution ();
+					colorSwitch2.material.color = Color.white;
+					colorSwitch3.material.color = Color.white;
+					colorSwitch4.material.color = Color.white;
+					colorSwitch5.material.color = Color.white;
+				}
+			}
+			if (tag == "2") {
+				if (solutionArray.Contains (2))
+					colorSwitch2.material.color = Color.green;
+				else {
+					colorSwitch2.material.color = Color.red;
+					solutionArray = generateSolution ();
+					colorSwitch1.material.color = Color.white;
+					colorSwitch3.material.color = Color.white;
+					colorSwitch4.material.color = Color.white;
+					colorSwitch5.material.color = Color.white;
+				}
+			}
+			if (tag == "3") {
+				if (solutionArray.Contains (3))
+					colorSwitch3.material.color = Color.green;
+				else{
+					colorSwitch3.material.color = Color.red;
+					solutionArray = generateSolution ();
+					colorSwitch1.material.color = Color.white;
+					colorSwitch2.material.color = Color.white;
+					colorSwitch4.material.color = Color.white;
+					colorSwitch5.material.color = Color.white;
+				}
+			}
+			if (tag == "4") {
+				if (solutionArray.Contains (1))
+					colorSwitch4.material.color = Color.red;
+				else{
+					colorSwitch4.material.color = Color.blue;
+					solutionArray = generateSolution ();
+					colorSwitch1.material.color = Color.white;
+					colorSwitch2.material.color = Color.white;
+					colorSwitch3.material.color = Color.white;
+					colorSwitch5.material.color = Color.white;
+				}
+			}
+			if (tag == "5") {
+				if (solutionArray.Contains (1))
+					colorSwitch5.material.color = Color.green;
+				else{
+					colorSwitch5.material.color = Color.red;
+					solutionArray = generateSolution ();
+					colorSwitch1.material.color = Color.white;
+					colorSwitch2.material.color = Color.white;
+					colorSwitch3.material.color = Color.white;
+					colorSwitch4.material.color = Color.white;
+				}
+			}
+
+			if (verifySolution() == true) {
+				Debug.Log ("open gate");
+				ofWall.isKinematic = false;
+			} 
+			else {
+				Debug.Log ("close gate");
+			}
+			canInteract = false;
+		}
 	}
 
-	void OnCollisionEnter(Collision collision) {
+	/*void OnCollisionEnter(Collision collision) {
 		if (tag == "1") {
 			if (solutionArray.Contains (1))
 				colorSwitch1.material.color = Color.green;
@@ -118,7 +208,7 @@ public class PuzzleScript : MonoBehaviour {
 		else {
 			Debug.Log ("close gate");
 		}
-	}
+	}*/
 
 	int[] generateSolution()
 	{
@@ -158,5 +248,13 @@ public class PuzzleScript : MonoBehaviour {
 			return true;
 		else
 			return false;
+	}
+
+	void OnGUI()
+	{
+		if (displayMsg) {
+			if (canInteract)
+				GUI.Label (new Rect (500, 100, 300, 20), "Press E to interact");
+		}
 	}
 }
