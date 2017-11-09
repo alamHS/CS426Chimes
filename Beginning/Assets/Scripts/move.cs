@@ -54,7 +54,7 @@ public class move : MonoBehaviour {
 			GameObject newBullet = GameObject.Instantiate(bullet1, cannon.transform.position, cannon.transform.rotation) as GameObject;
 			newBullet.GetComponent<Rigidbody>().velocity += Vector3.up * 10;
 			newBullet.GetComponent<Rigidbody>().AddForce(newBullet.transform.forward * 1000);
-
+			Destroy (newBullet, 1.5f);
 		}
 		if(Input.GetKeyDown(KeyCode.S))
 		{
@@ -62,6 +62,7 @@ public class move : MonoBehaviour {
 			GameObject newBullet = GameObject.Instantiate(bullet2, cannon.transform.position, cannon.transform.rotation) as GameObject;
 			newBullet.GetComponent<Rigidbody>().velocity += Vector3.up * 10;
 			newBullet.GetComponent<Rigidbody>().AddForce(newBullet.transform.forward * 1000);
+			Destroy (newBullet, 1.5f);
 		}
 		if(Input.GetKeyDown(KeyCode.A))
 		{
@@ -69,6 +70,7 @@ public class move : MonoBehaviour {
 			GameObject newBullet = GameObject.Instantiate(bullet3, cannon.transform.position, cannon.transform.rotation) as GameObject;
 			newBullet.GetComponent<Rigidbody>().velocity += Vector3.up * 10;
 			newBullet.GetComponent<Rigidbody>().AddForce(newBullet.transform.forward * 1000);
+			Destroy (newBullet, 1.5f);
 		}
 		if(Input.GetKeyDown(KeyCode.D))
 		{
@@ -76,6 +78,7 @@ public class move : MonoBehaviour {
 			GameObject newBullet = GameObject.Instantiate(bullet4, cannon.transform.position, cannon.transform.rotation) as GameObject;
 			newBullet.GetComponent<Rigidbody>().velocity += Vector3.up * 10;
 			newBullet.GetComponent<Rigidbody>().AddForce(newBullet.transform.forward * 1000);
+			Destroy (newBullet, 1.5f);
 		}
 
 		artifactdistance = Vector3.Distance(artifact.position, transform.position);

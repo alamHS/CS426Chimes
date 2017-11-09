@@ -1,75 +1,91 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Audio;
 
 public class EnemyBossAI : MonoBehaviour {
     public float playerdistance;
     public float enemylookdistance;
+    public float stop;
     public float attackdistance;
     public float emenyspeed;
     public float damping;
     public Transform target;
     Rigidbody therigidbody;
     Renderer myrender;
-    public GameObject bulletPrefab;
+    private Animator animator;
+
     
-    public Transform bulletSpawn;
- 
+
     private bool fireo = true;
     private int health = 100;
     public int current_health;
     // Use this for initialization
-    void Start () {
+    void Start() {
         myrender = GetComponent<Renderer>();
         therigidbody = GetComponent<Rigidbody>();
-	}
-	
-	// Update is called once per frame
-	void FixedUpdate () {
+        animator = GetComponent<Animator>();
+
+        
+    }
+
+    // Update is called once per frame
+    void Update() {
         playerdistance = Vector3.Distance(target.position, transform.position);
-        if(playerdistance<enemylookdistance)
+        if (playerdistance < enemylookdistance && playerdistance > attackdistance)
         {
+
             myrender.material.color = Color.yellow;
-            look();
+            therigidbody.velocity = this.transform.forward * 0;
+            Quaternion rotation = Quaternion.LookRotation(target.position - transform.position);
+            transform.rotation = Quaternion.Slerp(transform.rotation, rotation, Time.deltaTime * damping);
 
         }
         if (playerdistance < attackdistance)
         {
             myrender.material.color = Color.red;
-            attack();
-            
+            therigidbody.AddForce(transform.forward * emenyspeed);
+            animator.SetTrigger("run");
+            Quaternion rotation = Quaternion.LookRotation(target.position - transform.position);
+            transform.rotation = Quaternion.Slerp(transform.rotation, rotation, Time.deltaTime * damping);
+
+        }
+        if (playerdistance <= stop)
+        {
+            myrender.material.color = Color.blue;
+            therigidbody.velocity = this.transform.forward * 0;
+            animator.SetTrigger("attack");
+
+            Quaternion rotation = Quaternion.LookRotation(target.position - transform.position);
+            transform.rotation = Quaternion.Slerp(transform.rotation, rotation, Time.deltaTime * damping);
         }
         else
-        { myrender.material.color = Color.blue; }
-        
-
-    }
-    void look() {
-        Quaternion rotation = Quaternion.LookRotation(target.position - transform.position);
-        transform.rotation = Quaternion.Slerp(transform.rotation, rotation,Time.deltaTime * damping);
-    }
-    void Fire()
-    {
-        // Create the Bullet from the Bullet Prefab
-        var bullet = (GameObject)Instantiate(bulletPrefab,bulletSpawn.position,bulletSpawn.rotation);
-        target=GameObject.FindGameObjectWithTag("Player").gameObject.GetComponent<Transform>();
-        
-
-        // Add velocity to the bullet
-        bullet.GetComponent<Rigidbody>().velocity = target.forward * 05;
-
-        // Destroy the bullet after 2 seconds
-        Destroy(bullet, 0.5f);
-       
-    }
-    
-    void attack() {
-        if (fireo)
         {
-/// yield return new WaitForSeconds(5);
-            Fire();
-            
+            //therigidbody.velocity = this.transform.forward * 0;
+            animator.SetTrigger("idle");
+        }
+        //therigidbody.velocity = this.transform.forward * 0;
+        
+
+    }
+
+    void OnCollisionEnter(Collision collision)
+    {
+
+        if (collision.gameObject.CompareTag("bull"))
+        {
+            health = health - 5;
+            animator.SetTrigger("shoot");
+            if (health <= 0)
+            {
+                GetComponent<Rigidbody>().isKinematic = true;
+
+               
+                animator.SetTrigger("dead");
+            }
         }
 
-            }
+            
+
+    }
 }

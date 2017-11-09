@@ -52,7 +52,7 @@ public class PuzzleScript : MonoBehaviour {
 			displayMsg = false;
 
 		RaycastHit hit;
-		Ray shootRay = new Ray (transform.position, Vector3.back);
+		Ray shootRay = new Ray (this.transform.position, Vector3.back);
 
 		if(Physics.Raycast(shootRay, out hit, 50))
 		{
@@ -104,7 +104,7 @@ public class PuzzleScript : MonoBehaviour {
 				}
 			}
 			if (tag == "4") {
-				if (solutionArray.Contains (1))
+				if (solutionArray.Contains (4))
 					colorSwitch4.material.color = Color.red;
 				else{
 					colorSwitch4.material.color = Color.blue;
@@ -116,8 +116,8 @@ public class PuzzleScript : MonoBehaviour {
 				}
 			}
 			if (tag == "5") {
-				if (solutionArray.Contains (1))
-					colorSwitch5.material.color = Color.green;
+				if (solutionArray.Contains (5))
+					colorSwitch5.material.color = Color.red;
 				else{
 					colorSwitch5.material.color = Color.red;
 					solutionArray = generateSolution ();
@@ -253,8 +253,12 @@ public class PuzzleScript : MonoBehaviour {
 	void OnGUI()
 	{
 		if (displayMsg) {
-			if (canInteract)
-				GUI.Label (new Rect (500, 100, 300, 20), "Press E to interact");
+			if (canInteract) {
+				GUIStyle textStyle = new GUIStyle ();
+				textStyle.normal.textColor = Color.blue;
+				GUI.Label (new Rect (500, 100, 300, 20), "Press E to interact", textStyle);
+
+			}
 		}
 	}
 }
