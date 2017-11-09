@@ -35,9 +35,9 @@ public class move : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
-		if (Input.GetKey (KeyCode.UpArrow))
+		if (Input.GetKey (KeyCode.DownArrow))
 			rb.velocity -= this.transform.forward * speed * Time.deltaTime;
-		else if (Input.GetKey (KeyCode.DownArrow))
+		else if (Input.GetKey (KeyCode.UpArrow))
 			rb.velocity += this.transform.forward * speed * Time.deltaTime;
 		if (Input.GetKey (KeyCode.RightArrow))
 			t.rotation *= Quaternion.Euler (0, rotationSpeed * Time.deltaTime, 0);

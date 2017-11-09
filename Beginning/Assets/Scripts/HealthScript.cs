@@ -27,7 +27,7 @@ public class HealthScript : MonoBehaviour {
 	{
   		if(other.tag=="enemy1" && healthBarSlider.value>0)
 		{
-   			healthBarSlider.value -=0.011f; 
+   			healthBarSlider.value -=0.11f; 
 			Debug.Log ("enemy collision");
   		}
 		else if(healthBarSlider.value<=0.0f)
