@@ -19,19 +19,18 @@ public class HealthScript : MonoBehaviour {
 	{
  	 	
   		if(!isGameOver)
-   			transform.Translate(Input.GetAxis("Horizontal")*Time.deltaTime*10f, 0, 0); //get input
+   			transform.Translate(Input.GetAxis("Horizontal")*Time.deltaTime*10f, 0, 0);
  	}
  
 
- 	void OnTriggerStay(Collider other)
+ 	void OnTriggerEnter(Collider other)
 	{
-		Debug.Log ("enemy collision");
-  		
-  		if(other.gameObject.name=="enemy1" && healthBarSlider.value>0)
+  		if(other.tag=="enemy1" && healthBarSlider.value>0)
 		{
-   			healthBarSlider.value -=10.0f;  
+   			healthBarSlider.value -=0.011f; 
+			Debug.Log ("enemy collision");
   		}
-  		else
+		else if(healthBarSlider.value<=0.0f)
 		{
    			isGameOver = true;    
    			gameOverText.enabled = true;
