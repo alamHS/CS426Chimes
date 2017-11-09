@@ -17,6 +17,10 @@ public class move : MonoBehaviour {
 	public GameObject bullet2;
 	public GameObject bullet4;
 	public AudioSource A;
+	public AudioSource W;
+	public AudioSource S;
+	public AudioSource D;
+
 	public Transform artifact;
 
 	Rigidbody rb;
@@ -46,32 +50,37 @@ public class move : MonoBehaviour {
 
 		if(Input.GetKeyDown(KeyCode.W))
 		{
+			W.Play ();
 			GameObject newBullet = GameObject.Instantiate(bullet1, cannon.transform.position, cannon.transform.rotation) as GameObject;
 			newBullet.GetComponent<Rigidbody>().velocity += Vector3.up * 10;
 			newBullet.GetComponent<Rigidbody>().AddForce(newBullet.transform.forward * 1000);
-			A.Play();
+
 		}
 		if(Input.GetKeyDown(KeyCode.S))
 		{
+			S.Play();
 			GameObject newBullet = GameObject.Instantiate(bullet2, cannon.transform.position, cannon.transform.rotation) as GameObject;
 			newBullet.GetComponent<Rigidbody>().velocity += Vector3.up * 10;
 			newBullet.GetComponent<Rigidbody>().AddForce(newBullet.transform.forward * 1000);
 		}
 		if(Input.GetKeyDown(KeyCode.A))
 		{
+			A.Play();
 			GameObject newBullet = GameObject.Instantiate(bullet3, cannon.transform.position, cannon.transform.rotation) as GameObject;
 			newBullet.GetComponent<Rigidbody>().velocity += Vector3.up * 10;
 			newBullet.GetComponent<Rigidbody>().AddForce(newBullet.transform.forward * 1000);
 		}
 		if(Input.GetKeyDown(KeyCode.D))
 		{
+			D.Play();
 			GameObject newBullet = GameObject.Instantiate(bullet4, cannon.transform.position, cannon.transform.rotation) as GameObject;
 			newBullet.GetComponent<Rigidbody>().velocity += Vector3.up * 10;
 			newBullet.GetComponent<Rigidbody>().AddForce(newBullet.transform.forward * 1000);
 		}
 
 		artifactdistance = Vector3.Distance(artifact.position, transform.position);
-		if(artifactdistance<100)
-			A.Play();
+		if (artifactdistance < 50)
+			A.Play ();
 	}
+
 }

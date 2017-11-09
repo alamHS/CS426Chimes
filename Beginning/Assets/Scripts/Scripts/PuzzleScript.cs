@@ -16,6 +16,7 @@ public class PuzzleScript : MonoBehaviour {
 	Renderer colorSwitch3;
 	Renderer colorSwitch4;
 	Renderer colorSwitch5;
+	Rigidbody ofWall;
 	//Rigidbody rb;
 	int[] solutionArray = new int[3];
 	//int[] playerArray;
@@ -28,6 +29,8 @@ public class PuzzleScript : MonoBehaviour {
 		colorSwitch3 = switch3.GetComponent<Renderer> ();
 		colorSwitch4 = switch4.GetComponent<Renderer> ();
 		colorSwitch5 = switch5.GetComponent<Renderer> ();
+		ofWall = wall.GetComponent<Rigidbody> ();
+		ofWall.isKinematic = true;
 
 		//solutionArray = generateSolution ();
 		solutionArray[0] = 1;
@@ -110,7 +113,7 @@ public class PuzzleScript : MonoBehaviour {
 
 		if (verifySolution() == true) {
 			Debug.Log ("open gate");
-			Destroy(GameObject.Find(wall.name));
+			ofWall.isKinematic = false;
 		} 
 		else {
 			Debug.Log ("close gate");
