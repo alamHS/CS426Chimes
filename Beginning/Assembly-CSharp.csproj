@@ -51,6 +51,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\exitnow.cs" />
      <Compile Include="Assets\Scripts\EnemyAI.cs" />
      <Compile Include="Assets\Scripts\EnemyBossAI.cs" />
      <Compile Include="Assets\Scripts\EnemyBossAI1.cs" />
@@ -68,12 +69,17 @@
      <Compile Include="Assets\Scripts\Scripts\PuzzleScript.cs" />
      <Compile Include="Assets\Scripts\Scripts\TargetFieldOfView.cs" />
      <Compile Include="Assets\Scripts\Solution.cs" />
+     <Compile Include="Assets\Start.cs" />
+     <Compile Include="Assets\torch\scene\script\TorchSlider.cs" />
+     <Compile Include="Assets\torch\scene\script\Torchslider2.cs" />
+     <Compile Include="Assets\torch\scripts\Torchelight.cs" />
      <None Include="Assets\CactusPack\Shaders\VertexBlend.shader" />
      <None Include="Assets\CactusPack\Readme.txt" />
      <None Include="Assets\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Simple.shader" />
      <None Include="Assets\Standard Assets\Environment\Water (Basic)\Shaders\FXWaterBasic.shader" />
      <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
      <None Include="Assets\Standard Assets\Environment\Water\Water\Shaders\FXWaterPro.shader" />
+     <None Include="Assets\torch\readme.txt" />
      <None Include="Assets\CactusPack\Shaders\Basic_Rimlight.shader" />
      <None Include="Assets\Standard Assets\Characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />
      <None Include="Assets\Cameras\CameraGuidelines.txt" />
