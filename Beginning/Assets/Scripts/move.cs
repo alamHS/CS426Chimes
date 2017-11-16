@@ -49,9 +49,19 @@ public class move : MonoBehaviour {
 		if (Input.GetKeyDown (KeyCode.Space))
 			rb.AddForce (t.up * force);
 		
+		float translation = Input.GetAxis ("Vertical") * speed;
+		float rotation = Input.GetAxis ("Horizontal") * rotationSpeed;
+		translation *= Time.deltaTime;
+		rotation *= Time.deltaTime;
+		transform.Translate (0, 0, translation);
+		transform.Rotate(0,rotation,0);
 
+		if (translation != 0)
+			anim.SetBool ("isRunning", true);
+		else
+			anim.SetBool ("isRunning", false);
 
-		if(Input.GetKeyDown(KeyCode.W))
+		if(Input.GetKeyDown(KeyCode.Z))
 		{
 			anim.SetTrigger ("isShooting");
 			W.Play ();
@@ -60,7 +70,7 @@ public class move : MonoBehaviour {
 			newBullet.GetComponent<Rigidbody>().AddForce(newBullet.transform.forward * 1000);
 			Destroy (newBullet, 1.5f);
 		}
-		if(Input.GetKeyDown(KeyCode.S))
+		if(Input.GetKeyDown(KeyCode.X))
 		{
 			anim.SetTrigger ("isShooting");
 			S.Play();
@@ -69,7 +79,7 @@ public class move : MonoBehaviour {
 			newBullet.GetComponent<Rigidbody>().AddForce(newBullet.transform.forward * 1000);
 			Destroy (newBullet, 1.5f);
 		}
-		if(Input.GetKeyDown(KeyCode.A))
+		if(Input.GetKeyDown(KeyCode.C))
 		{
 			anim.SetTrigger ("isShooting");
 
@@ -79,7 +89,7 @@ public class move : MonoBehaviour {
 			newBullet.GetComponent<Rigidbody>().AddForce(newBullet.transform.forward * 1000);
 			Destroy (newBullet, 1.5f);
 		}
-		if(Input.GetKeyDown(KeyCode.D))
+		if(Input.GetKeyDown(KeyCode.V))
 		{
 			anim.SetTrigger ("isShooting");
 			D.Play();
@@ -92,17 +102,5 @@ public class move : MonoBehaviour {
 		artifactdistance = Vector3.Distance(artifact.position, transform.position);
 		if (artifactdistance < 50)
 			A.Play ();
-
-		float translation = Input.GetAxis ("Vertical") * speed;
-		float rotation = Input.GetAxis ("Horizontal") * rotationSpeed;
-		translation *= Time.deltaTime;
-		rotation *= Time.deltaTime;
-		transform.Translate (0, 0, translation);
-		transform.Rotate(0,rotation,0);
-
-		if (translation != 0)
-			anim.SetBool ("isRunning", true);
-		else
-			anim.SetBool ("isRunning", false);
 	}
 }

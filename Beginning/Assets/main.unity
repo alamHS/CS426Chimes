@@ -631,6 +631,34 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 38
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &151358570
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 151358571}
+  m_Layer: 0
+  m_Name: cannon
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &151358571
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 151358570}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.81, y: 1.61, z: 1.03}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 468153517}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &172412722
 Prefab:
   m_ObjectHideFlags: 0
@@ -1966,9 +1994,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 468153509}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2e21f83111b815e4ca4aa8ce6b8a1736, type: 3}
+  m_Script: {fileID: 11500000, guid: 3ac0ad57c6883534eaab3e3b61ae7e06, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  healthBarSlider: {fileID: 319957080}
+  gameOverText: {fileID: 0}
 --- !u!114 &468153512
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2001,7 +2031,7 @@ MonoBehaviour:
   speed: 15
   rotationSpeed: 90
   force: 300
-  cannon: {fileID: 1150983851}
+  cannon: {fileID: 151358570}
   bullet1: {fileID: 1513674758299956, guid: 910ecc5163cba86468367fd71093cc54, type: 2}
   bullet3: {fileID: 1739031661083518, guid: 8e1860f3a2aad6f46bd71da2f997a84c, type: 2}
   bullet2: {fileID: 1960973122087454, guid: 810ed4062e1794c4bbcedeed5c361c1c, type: 2}
