@@ -66,6 +66,7 @@
      <None Include="Assets\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Advanced.shader" />
      <None Include="Assets\Standard Assets\Characters\RollerBall\RollerBallGuidelines.txt" />
      <None Include="Assets\VertexColorTrees\Shaders\VertexColorUnlit.shader" />
+     <None Include="Assets\ProjectSettings\ProjectVersion.txt" />
  <Reference Include="UnityEditor.Advertisements">
  <HintPath>C:/Program Files/unity3D/Editor/Data/UnityExtensions/Unity/Advertisements/Editor/UnityEditor.Advertisements.dll</HintPath>
  </Reference>

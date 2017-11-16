@@ -51,11 +51,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\BossAI.cs" />
      <Compile Include="Assets\Scripts\EnemyAI.cs" />
      <Compile Include="Assets\Scripts\EnemyBossAI.cs" />
      <Compile Include="Assets\Scripts\EnemyBossAI1.cs" />
+     <Compile Include="Assets\Scripts\HealthScript.cs" />
      <Compile Include="Assets\Scripts\move.cs" />
+     <Compile Include="Assets\Scripts\over.cs" />
+     <Compile Include="Assets\Scripts\restart.cs" />
      <Compile Include="Assets\Scripts\Scripts\AbstractTargetFollower.cs" />
      <Compile Include="Assets\Scripts\Scripts\AutoCam.cs" />
      <Compile Include="Assets\Scripts\Scripts\FreeLookCam.cs" />
@@ -80,6 +82,7 @@
      <None Include="Assets\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Advanced.shader" />
      <None Include="Assets\Standard Assets\Characters\RollerBall\RollerBallGuidelines.txt" />
      <None Include="Assets\VertexColorTrees\Shaders\VertexColorUnlit.shader" />
+     <None Include="Assets\ProjectSettings\ProjectVersion.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/unity3D/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
