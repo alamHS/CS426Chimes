@@ -37,6 +37,20 @@ public class move : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
+
+		float translation = Input.GetAxis ("Vertical") * speed;
+		float rotation = Input.GetAxis ("Horizontal") * rotationSpeed;
+		translation *= Time.deltaTime;
+		rotation *= Time.deltaTime;
+		transform.Translate (0, 0, translation);
+		transform.Rotate(0,rotation,0);
+
+		if (translation != 0)
+			anim.SetBool ("isRunning", true);
+		else
+			anim.SetBool ("isRunning", false);
+
+
 		if (Input.GetKey (KeyCode.DownArrow))
 			rb.velocity -= this.transform.forward * speed * Time.deltaTime;
 		else if (Input.GetKey (KeyCode.UpArrow))
@@ -52,6 +66,7 @@ public class move : MonoBehaviour {
 
 		if(Input.GetKeyDown(KeyCode.W))
 		{
+			anim.SetTrigger ("isShooting");
 			W.Play ();
 			GameObject newBullet = GameObject.Instantiate(bullet1, cannon.transform.position, cannon.transform.rotation) as GameObject;
 			newBullet.GetComponent<Rigidbody>().velocity += Vector3.up * 10;
@@ -60,6 +75,7 @@ public class move : MonoBehaviour {
 		}
 		if(Input.GetKeyDown(KeyCode.S))
 		{
+			anim.SetTrigger ("isShooting");
 			S.Play();
 			GameObject newBullet = GameObject.Instantiate(bullet2, cannon.transform.position, cannon.transform.rotation) as GameObject;
 			newBullet.GetComponent<Rigidbody>().velocity += Vector3.up * 10;
@@ -68,6 +84,8 @@ public class move : MonoBehaviour {
 		}
 		if(Input.GetKeyDown(KeyCode.A))
 		{
+			anim.SetTrigger ("isShooting");
+
 			A.Play();
 			GameObject newBullet = GameObject.Instantiate(bullet3, cannon.transform.position, cannon.transform.rotation) as GameObject;
 			newBullet.GetComponent<Rigidbody>().velocity += Vector3.up * 10;
@@ -76,6 +94,7 @@ public class move : MonoBehaviour {
 		}
 		if(Input.GetKeyDown(KeyCode.D))
 		{
+			anim.SetTrigger ("isShooting");
 			D.Play();
 			GameObject newBullet = GameObject.Instantiate(bullet4, cannon.transform.position, cannon.transform.rotation) as GameObject;
 			newBullet.GetComponent<Rigidbody>().velocity += Vector3.up * 10;
@@ -86,17 +105,5 @@ public class move : MonoBehaviour {
 		artifactdistance = Vector3.Distance(artifact.position, transform.position);
 		if (artifactdistance < 50)
 			A.Play ();
-
-		float translation = Input.GetAxis ("Vertical") * speed;
-		float rotation = Input.GetAxis ("Horizontal") * rotationSpeed;
-		translation *= Time.deltaTime;
-		rotation *= Time.deltaTime;
-		transform.Translate (0, 0, translation);
-		transform.Rotate(0,rotation,0);
-
-		if (translation != 0)
-			anim.SetBool ("isRunning", true);
-		else
-			anim.SetBool ("isRunning", false);
 	}
 }
