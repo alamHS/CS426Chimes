@@ -6,6 +6,7 @@ public class blue : MonoBehaviour {
 	public GameObject switch1;
 	public GameObject sign;
 	Renderer color1;
+	Renderer color2;
 
 	bool canInteract = false;
 	float displayTime = 3.0f;
@@ -14,11 +15,14 @@ public class blue : MonoBehaviour {
 
 	void Start(){
 		color1 = switch1.GetComponent<Renderer>();
+		color2 = sign.GetComponent<Renderer> ();
+		color2.enabled = false;
 	}
 
 	void Update () {
 
 		if (color1.material.color == Color.green) {
+			color2.enabled = true;
 			displayTime -= Time.deltaTime;
 			if (displayTime <= 0.0)
 				displayMsg = false;
