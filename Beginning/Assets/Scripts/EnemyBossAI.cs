@@ -88,6 +88,9 @@ public class EnemyBossAI : MonoBehaviour {
             {
                 GetComponent<Rigidbody>().isKinematic = true; 
 				animator.SetTrigger("dead");
+				animator.ResetTrigger ("idle");
+				animator.ResetTrigger ("run");
+				animator.ResetTrigger ("attack");
 				bossHealthText.enabled = false;
 				bossHealthSlider.gameObject.SetActive(false);
 				Debug.Log ("DEAD");
