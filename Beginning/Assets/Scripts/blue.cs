@@ -47,7 +47,7 @@ public class blue : MonoBehaviour {
 			if (canInteract) {
 				GUIStyle textStyle = new GUIStyle ();
 				textStyle.normal.textColor = Color.white;
-				GUI.Label (new Rect (500, 100, 300, 20), "From the oceans will you hear rhythms, that is where they will call you", textStyle);
+				GUI.Label (new Rect (400, 100, 300, 500), "From the oceans will you hear rhythms, that is where they will call you", textStyle);
 
 			}
 		}
