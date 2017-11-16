@@ -52,12 +52,14 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\exitnow.cs" />
+     <Compile Include="Assets\Scripts\blue.cs" />
      <Compile Include="Assets\Scripts\EnemyAI.cs" />
      <Compile Include="Assets\Scripts\EnemyBossAI.cs" />
      <Compile Include="Assets\Scripts\EnemyBossAI1.cs" />
      <Compile Include="Assets\Scripts\HealthScript.cs" />
      <Compile Include="Assets\Scripts\move.cs" />
      <Compile Include="Assets\Scripts\over.cs" />
+     <Compile Include="Assets\Scripts\red.cs" />
      <Compile Include="Assets\Scripts\restart.cs" />
      <Compile Include="Assets\Scripts\Scripts\AbstractTargetFollower.cs" />
      <Compile Include="Assets\Scripts\Scripts\AutoCam.cs" />
