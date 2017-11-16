@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Audio;
+using UnityEngine.UI;
 
 public class EnemyBossAI : MonoBehaviour {
     public float playerdistance;
@@ -15,8 +16,9 @@ public class EnemyBossAI : MonoBehaviour {
     Renderer myrender;
     private Animator animator;
 
-    
-
+	public Slider bossHealthSlider;  
+	public Text bossHealthText;
+	private bool isBossActive = false;
     private bool fireo = true;
     private int health = 100;
     public int current_health;
@@ -26,7 +28,8 @@ public class EnemyBossAI : MonoBehaviour {
         therigidbody = GetComponent<Rigidbody>();
         animator = GetComponent<Animator>();
 
-        
+		bossHealthText.enabled = false;
+		bossHealthSlider.gameObject.SetActive(false);
     }
 
     // Update is called once per frame
@@ -34,7 +37,7 @@ public class EnemyBossAI : MonoBehaviour {
         playerdistance = Vector3.Distance(target.position, transform.position);
         if (playerdistance < enemylookdistance && playerdistance > attackdistance)
         {
-
+			isBossActive = true;
             myrender.material.color = Color.yellow;
             therigidbody.velocity = this.transform.forward * 0;
             Quaternion rotation = Quaternion.LookRotation(target.position - transform.position);
@@ -66,7 +69,12 @@ public class EnemyBossAI : MonoBehaviour {
         }
         //therigidbody.velocity = this.transform.forward * 0;
         
+		if (isBossActive) 
+		{
+			bossHealthText.enabled = true;
+			bossHealthSlider.gameObject.SetActive(true);
 
+		}
     }
 
     void OnCollisionEnter(Collision collision)
@@ -75,13 +83,15 @@ public class EnemyBossAI : MonoBehaviour {
         if (collision.gameObject.CompareTag("bull"))
         {
             health = health - 5;
+			bossHealthSlider.value -=0.05f; 
             animator.SetTrigger("shoot");
             if (health <= 0)
             {
-                GetComponent<Rigidbody>().isKinematic = true;
-
-               
+                GetComponent<Rigidbody>().isKinematic = true;               
                 animator.SetTrigger("dead");
+
+				bossHealthText.enabled = false;
+				bossHealthSlider.gameObject.SetActive(false);
             }
         }
 

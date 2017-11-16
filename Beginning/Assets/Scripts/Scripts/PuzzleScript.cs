@@ -52,8 +52,18 @@ public class PuzzleScript : MonoBehaviour {
 			displayMsg = false;
 
 		RaycastHit hit;
-		Ray shootRay = new Ray (this.transform.position, Vector3.back);
-
+		Ray shootRay = new Ray (this.transform.position, Vector3.back);;
+		if(tag=="1")
+			shootRay = new Ray (this.transform.position, Vector3.back);
+		else if(tag=="2")
+			shootRay = new Ray (this.transform.position, Vector3.forward);
+		else if(tag=="3")
+			shootRay = new Ray (this.transform.position, Vector3.right);
+		else if(tag=="4")
+			shootRay = new Ray (this.transform.position, Vector3.right);
+		else if(tag=="5")
+			shootRay = new Ray (this.transform.position, Vector3.right);
+		
 		if(Physics.Raycast(shootRay, out hit, 50))
 		{
 			if (hit.collider.tag == "Player") 
