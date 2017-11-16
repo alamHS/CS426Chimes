@@ -5,6 +5,7 @@ using UnityEngine;
 
 public class move : MonoBehaviour {
 
+	static Animator anim;
 	public float artifactdistance;
 
 	public float speed = 25.0f;
@@ -31,6 +32,7 @@ public class move : MonoBehaviour {
 		t = GetComponent<Transform> ();
 		//var Aclip = Resources.Load<AudioClip>("Recording (2)");
 		//A.clip = Aclip;
+		anim = GetComponent<Animator>();
 	}
 
 	// Update is called once per frame
@@ -84,6 +86,17 @@ public class move : MonoBehaviour {
 		artifactdistance = Vector3.Distance(artifact.position, transform.position);
 		if (artifactdistance < 50)
 			A.Play ();
-	}
 
+		float translation = Input.GetAxis ("Vertical") * speed;
+		float rotation = Input.GetAxis ("Horizontal") * rotationSpeed;
+		translation *= Time.deltaTime;
+		rotation *= Time.deltaTime;
+		transform.Translate (0, 0, translation);
+		transform.Rotate(0,rotation,0);
+
+		if (translation != 0)
+			anim.SetBool ("isRunning", true);
+		else
+			anim.SetBool ("isRunning", false);
+	}
 }
