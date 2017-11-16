@@ -39,5 +39,9 @@ public class HealthScript : MonoBehaviour {
 
    			gameOverText.enabled = true;
   		}
+
+		if (other.tag == "boss") {
+			healthBarSlider.value -= 0.11f;
+		}
  	}
 }
