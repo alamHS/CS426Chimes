@@ -51,6 +51,7 @@ public class EnemyBossAI : MonoBehaviour {
             animator.SetTrigger("run");
             Quaternion rotation = Quaternion.LookRotation(target.position - transform.position);
             transform.rotation = Quaternion.Slerp(transform.rotation, rotation, Time.deltaTime * damping);
+
         }
         if (playerdistance <= stop)
         {
@@ -72,7 +73,7 @@ public class EnemyBossAI : MonoBehaviour {
 		{
 			bossHealthText.enabled = true;
 			bossHealthSlider.gameObject.SetActive(true);
-			isBossActive = false;
+
 		}
     }
 
@@ -81,16 +82,16 @@ public class EnemyBossAI : MonoBehaviour {
 
         if (collision.gameObject.CompareTag("bull"))
         {
-            //health = health - 10;
-			bossHealthSlider.value -=0.22f; 
+            health = health - 5;
+			bossHealthSlider.value -=0.05f; 
             animator.SetTrigger("shoot");
-			if (bossHealthSlider.value<=0.0f)
+            if (health <= 0)
             {
-                GetComponent<Rigidbody>().isKinematic = true; 
-				animator.SetTrigger("dead");
+                GetComponent<Rigidbody>().isKinematic = true;               
+                animator.SetTrigger("dead");
+
 				bossHealthText.enabled = false;
 				bossHealthSlider.gameObject.SetActive(false);
-				Debug.Log ("DEAD");
             }
         }
 

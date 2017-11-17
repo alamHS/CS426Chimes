@@ -10,14 +10,11 @@ public class EnemyAI : MonoBehaviour {
 	Renderer enemyMesh;
 	public GameObject switch1;
 	public Transform rumi;
-
-	private Animator animator;
-
 	// Use this for initialization
 	void Start () {
 		colorSwitch = switch1.GetComponent<Renderer>();
 		enemyMesh = GetComponent<Renderer>();
-		animator = GetComponent<Animator>();
+
 		
 	}
 
@@ -28,14 +25,10 @@ public class EnemyAI : MonoBehaviour {
 		{
 			enemyMesh.material.color = Color.red;
 			transform.LookAt (rumi);
-			transform.position += transform.forward * 10 * Time.deltaTime;
-			animator.SetTrigger ("isAttack");
+			transform.position += transform.forward * 5 * Time.deltaTime;
+
 		}
-               
-	}
-	void OnCollisionEnter(Collision collision)
-	{
-		if(collision.gameObject.tag=="bull")
-			Destroy (gameObject);
-	}
+                
+			
+}
 }
