@@ -56,6 +56,7 @@
      <Compile Include="Assets\Scripts\EnemyAI.cs" />
      <Compile Include="Assets\Scripts\EnemyBossAI.cs" />
      <Compile Include="Assets\Scripts\EnemyBossAI1.cs" />
+     <Compile Include="Assets\Scripts\greens.cs" />
      <Compile Include="Assets\Scripts\HealthScript.cs" />
      <Compile Include="Assets\Scripts\move.cs" />
      <Compile Include="Assets\Scripts\over.cs" />
@@ -63,6 +64,7 @@
      <Compile Include="Assets\Scripts\restart.cs" />
      <Compile Include="Assets\Scripts\Scripts\AbstractTargetFollower.cs" />
      <Compile Include="Assets\Scripts\Scripts\AutoCam.cs" />
+     <Compile Include="Assets\Scripts\Scripts\cameraMouse.cs" />
      <Compile Include="Assets\Scripts\Scripts\FreeLookCam.cs" />
      <Compile Include="Assets\Scripts\Scripts\HandHeldCam.cs" />
      <Compile Include="Assets\Scripts\Scripts\LookatTarget.cs" />

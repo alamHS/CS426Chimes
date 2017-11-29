@@ -265,7 +265,7 @@ public class PuzzleScript : MonoBehaviour {
 		if (displayMsg) {
 			if (canInteract) {
 				GUIStyle textStyle = new GUIStyle ();
-				textStyle.normal.textColor = Color.blue;
+				textStyle.normal.textColor = Color.white;
 				GUI.Label (new Rect (500, 100, 300, 20), "Press E to interact", textStyle);
 
 			}
