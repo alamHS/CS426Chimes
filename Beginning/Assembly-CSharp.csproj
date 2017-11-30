@@ -51,6 +51,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\GameOverMenu.cs" />
      <Compile Include="Assets\Scripts\blue.cs" />
      <Compile Include="Assets\Scripts\controls.cs" />
      <Compile Include="Assets\Scripts\EnemyAI.cs" />
@@ -77,6 +78,12 @@
      <Compile Include="Assets\Scripts\Solution.cs" />
      <Compile Include="Assets\Scripts\Start.cs" />
      <Compile Include="Assets\Scripts\storyTwo.cs" />
+     <Compile Include="Assets\shader\g.cs" />
+     <Compile Include="Assets\shader\n.cs" />
+     <Compile Include="Assets\shader\p.cs" />
+     <Compile Include="Assets\shader\r.cs" />
+     <Compile Include="Assets\shader\signs.cs" />
+     <Compile Include="Assets\shader\y.cs" />
      <Compile Include="Assets\test.cs" />
      <Compile Include="Assets\torch\scene\script\TorchSlider.cs" />
      <Compile Include="Assets\torch\scene\script\Torchslider2.cs" />
@@ -86,6 +93,7 @@
      <None Include="Assets\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Simple.shader" />
      <None Include="Assets\Standard Assets\Environment\Water (Basic)\Shaders\FXWaterBasic.shader" />
      <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
+     <None Include="Assets\shader\ParticleLight\Shader\AdditiveMask.shader" />
      <None Include="Assets\Standard Assets\Environment\Water\Water\Shaders\FXWaterPro.shader" />
      <None Include="Assets\torch\readme.txt" />
      <None Include="Assets\CactusPack\Shaders\Basic_Rimlight.shader" />
