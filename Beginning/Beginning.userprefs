@@ -1,23 +1,23 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\mainload.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Scripts\PuzzleScript.cs">
     <Files>
-      <File FileName="Assets\Scripts\move.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\move.cs" Line="72" Column="28" />
       <File FileName="Assets\Scripts\EnemyAI.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\Solution.cs" Line="1" Column="1" />
       <File FileName="Assets\CactusPack\Readme.txt" Line="1" Column="1" />
       <File FileName="Assets\Scripts\over.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\restart.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\red.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Scripts\PuzzleScript.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Scripts\PuzzleScript.cs" Line="144" Column="22" />
       <File FileName="Assets\Scripts\blue.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\EnemyBossAI.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\Scripts\cameraMouse.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\HealthScript.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\Start.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\storyTwo.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\controls.cs" Line="10" Column="39" />
-      <File FileName="Assets\Scripts\mainload.cs" Line="6" Column="22" />
+      <File FileName="Assets\Scripts\controls.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\mainload.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

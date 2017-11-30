@@ -60,7 +60,7 @@ public class move : MonoBehaviour {
 		else
 			anim.SetBool ("isRunning", false);
 
-		if(Input.GetKeyDown(KeyCode.Z))
+		if(Input.GetButtonDown("Fire1"))
 		{
 			anim.SetTrigger ("isShooting");
 			W.Play ();
@@ -69,7 +69,7 @@ public class move : MonoBehaviour {
 			newBullet.GetComponent<Rigidbody>().AddForce(newBullet.transform.forward * 1000);
 			Destroy (newBullet, 1.5f);
 		}
-		if(Input.GetKeyDown(KeyCode.X))
+		if(Input.GetButtonDown("Fire2"))
 		{
 			anim.SetTrigger ("isShooting");
 			S.Play();
@@ -78,25 +78,7 @@ public class move : MonoBehaviour {
 			newBullet.GetComponent<Rigidbody>().AddForce(newBullet.transform.forward * 1000);
 			Destroy (newBullet, 1.5f);
 		}
-		if(Input.GetKeyDown(KeyCode.C))
-		{
-			anim.SetTrigger ("isShooting");
-
-			A.Play();
-			GameObject newBullet = GameObject.Instantiate(bullet3, cannon.transform.position, cannon.transform.rotation) as GameObject;
-			newBullet.GetComponent<Rigidbody>().velocity += Vector3.up * 10;
-			newBullet.GetComponent<Rigidbody>().AddForce(newBullet.transform.forward * 1000);
-			Destroy (newBullet, 1.5f);
-		}
-		if(Input.GetKeyDown(KeyCode.V))
-		{
-			anim.SetTrigger ("isShooting");
-			D.Play();
-			GameObject newBullet = GameObject.Instantiate(bullet4, cannon.transform.position, cannon.transform.rotation) as GameObject;
-			newBullet.GetComponent<Rigidbody>().velocity += Vector3.up * 10;
-			newBullet.GetComponent<Rigidbody>().AddForce(newBullet.transform.forward * 1000);
-			Destroy (newBullet, 1.5f);
-		}
+	
 
 		artifactdistance = Vector3.Distance(artifact.position, transform.position);
 		if (artifactdistance < 50)

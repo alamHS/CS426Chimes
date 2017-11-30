@@ -15,6 +15,7 @@ public class PuzzleScript : MonoBehaviour {
 	public GameObject switch3;
 	public GameObject switch4;
 	public GameObject switch5;
+	public AudioSource wallRise;
 	Renderer colorSwitch1;
 	Renderer colorSwitch2;
 	Renderer colorSwitch3;
@@ -140,6 +141,7 @@ public class PuzzleScript : MonoBehaviour {
 
 			if (verifySolution() == true) {
 				Debug.Log ("open gate");
+				wallRise.Play ();
 				ofWall.isKinematic = false;
 			} 
 			else {
