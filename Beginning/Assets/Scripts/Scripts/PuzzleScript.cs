@@ -5,6 +5,8 @@ using UnityEngine;
 
 public class PuzzleScript : MonoBehaviour {
 
+	public AudioSource success;
+
 	bool canInteract = false;
 	float displayTime = 2.0f;
 	bool displayMsg = false;
@@ -79,8 +81,10 @@ public class PuzzleScript : MonoBehaviour {
 		if (canInteract && (Input.GetKey (KeyCode.E))) 
 		{
 			if (tag == "1") {
-				if (solutionArray.Contains (1))
+				if (solutionArray.Contains (1)) {
 					colorSwitch1.material.color = Color.green;
+					success.Play ();
+				}
 				else {
 					colorSwitch1.material.color = Color.red;
 					solutionArray = generateSolution ();
@@ -91,8 +95,10 @@ public class PuzzleScript : MonoBehaviour {
 				}
 			}
 			if (tag == "2") {
-				if (solutionArray.Contains (2))
+				if (solutionArray.Contains (2)) {
 					colorSwitch2.material.color = Color.green;
+					success.Play ();
+				}
 				else {
 					colorSwitch2.material.color = Color.red;
 					solutionArray = generateSolution ();
@@ -103,8 +109,10 @@ public class PuzzleScript : MonoBehaviour {
 				}
 			}
 			if (tag == "3") {
-				if (solutionArray.Contains (3))
+				if (solutionArray.Contains (3)) {
 					colorSwitch3.material.color = Color.green;
+					success.Play ();
+				}
 				else{
 					colorSwitch3.material.color = Color.red;
 					solutionArray = generateSolution ();
