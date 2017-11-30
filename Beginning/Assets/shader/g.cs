@@ -34,7 +34,7 @@ public class g : MonoBehaviour {
                 
                 guiStyle.fontSize = 30;
                 guiStyle.normal.textColor = Color.red;
-                GUI.Label(new Rect(500, 100, 300, 20), "The wind will extinguish this searing hue",guiStyle);
+                GUI.Label(new Rect(500, 100, 300, 20), "This color emits life",guiStyle);
 
             }
         }

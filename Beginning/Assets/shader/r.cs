@@ -33,8 +33,8 @@ public class r : MonoBehaviour {
             {
                 
                 guiStyle.fontSize = 30;
-                guiStyle.normal.textColor = Color.red;
-                GUI.Label(new Rect(500, 100, 300, 20), "The wind will extinguish this searing hue",guiStyle);
+                guiStyle.normal.textColor = Color.white;
+				GUI.Label(new Rect(500, 100, 300, 20), "From the oceans will you hear rhythms, that is where they will call you",guiStyle);
 
             }
         }

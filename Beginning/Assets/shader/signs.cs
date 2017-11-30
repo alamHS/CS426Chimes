@@ -34,7 +34,7 @@ public class signs : MonoBehaviour {
                 
                 guiStyle.fontSize = 25;
                 guiStyle.normal.textColor = Color.white;
-                GUI.Label(new Rect(500, 100, 300, 20), "The wind will extinguish this searing hue",guiStyle);
+				GUI.Label(new Rect(500, 100, 300, 20), "The wind will extinguish this searing hue",guiStyle);
 
             }
         }
