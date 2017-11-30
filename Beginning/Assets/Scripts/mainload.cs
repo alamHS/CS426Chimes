@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class Start : MonoBehaviour {
+public class mainload : MonoBehaviour {
 
 	// Update is called once per frame
 	public void Update (string changeScene) {

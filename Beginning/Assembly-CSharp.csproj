@@ -51,13 +51,15 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\exitnow.cs" />
      <Compile Include="Assets\Scripts\blue.cs" />
+     <Compile Include="Assets\Scripts\controls.cs" />
      <Compile Include="Assets\Scripts\EnemyAI.cs" />
      <Compile Include="Assets\Scripts\EnemyBossAI.cs" />
      <Compile Include="Assets\Scripts\EnemyBossAI1.cs" />
+     <Compile Include="Assets\Scripts\exitnow.cs" />
      <Compile Include="Assets\Scripts\greens.cs" />
      <Compile Include="Assets\Scripts\HealthScript.cs" />
+     <Compile Include="Assets\Scripts\mainload.cs" />
      <Compile Include="Assets\Scripts\move.cs" />
      <Compile Include="Assets\Scripts\over.cs" />
      <Compile Include="Assets\Scripts\red.cs" />
@@ -73,7 +75,9 @@
      <Compile Include="Assets\Scripts\Scripts\PuzzleScript.cs" />
      <Compile Include="Assets\Scripts\Scripts\TargetFieldOfView.cs" />
      <Compile Include="Assets\Scripts\Solution.cs" />
-     <Compile Include="Assets\Start.cs" />
+     <Compile Include="Assets\Scripts\Start.cs" />
+     <Compile Include="Assets\Scripts\storyTwo.cs" />
+     <Compile Include="Assets\test.cs" />
      <Compile Include="Assets\torch\scene\script\TorchSlider.cs" />
      <Compile Include="Assets\torch\scene\script\Torchslider2.cs" />
      <Compile Include="Assets\torch\scripts\Torchelight.cs" />

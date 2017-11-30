@@ -21,7 +21,7 @@ public class HealthScript : MonoBehaviour {
  	 	
 		if(!isGameOver){
    			transform.Translate(Input.GetAxis("Horizontal")*Time.deltaTime*10f, 0, 0);
-			//SceneManager.LoadScene ("game over");
+			SceneManager.LoadScene ("game over");
 		}
  	}
  
@@ -30,7 +30,7 @@ public class HealthScript : MonoBehaviour {
 	{
   		if(other.tag=="enemy1" && healthBarSlider.value>0)
 		{
-   			healthBarSlider.value -=0.22f; 
+   			healthBarSlider.value -=0.10f; 
 			Debug.Log ("enemy collision");
   		}
 		else if(healthBarSlider.value<=0.0f)
@@ -38,6 +38,8 @@ public class HealthScript : MonoBehaviour {
    			isGameOver = true;    
 
    			gameOverText.enabled = true;
+
+			SceneManager.LoadScene ("game over");
   		}
  	}
 }

@@ -39,7 +39,7 @@ public class cameraMouse : MonoBehaviour {
 
 	private void LateUpdate(){
 
-		Vector3 vector = new Vector3 ( 2, 30, -distance);
+		Vector3 vector = new Vector3 ( 2, 20, -distance);
 		Quaternion rotation = Quaternion.Euler (currentY, currentX, 0);
 		camTransform.position = follow.position + rotation * vector;
 

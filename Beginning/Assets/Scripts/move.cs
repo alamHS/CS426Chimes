@@ -8,7 +8,7 @@ public class move : MonoBehaviour {
 	static Animator anim;
 	public float artifactdistance;
 
-	public float speed = 25.0f;
+	public float speed = 40.0f;
 	public float rotationSpeed = 90;
 	public float force = 700f;
 
@@ -46,8 +46,7 @@ public class move : MonoBehaviour {
 			t.rotation *= Quaternion.Euler (0, rotationSpeed * Time.deltaTime, 0);
 		else if (Input.GetKey (KeyCode.LeftArrow))
 			t.rotation *= Quaternion.Euler (0, -rotationSpeed * Time.deltaTime, 0);
-		if (Input.GetKeyDown (KeyCode.Space))
-			rb.AddForce (t.up * force);
+	
 		
 		float translation = Input.GetAxis ("Vertical") * speed;
 		float rotation = Input.GetAxis ("Horizontal") * rotationSpeed;
