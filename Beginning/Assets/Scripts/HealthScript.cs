@@ -19,7 +19,7 @@ public class HealthScript : MonoBehaviour {
  	void Update () 
 	{
  	 	
-		if(!isGameOver){
+		if(isGameOver){
    			transform.Translate(Input.GetAxis("Horizontal")*Time.deltaTime*10f, 0, 0);
 			SceneManager.LoadScene ("game over");
 		}
