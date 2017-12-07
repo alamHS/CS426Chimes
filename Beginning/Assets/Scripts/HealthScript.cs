@@ -44,7 +44,7 @@ public class HealthScript : MonoBehaviour {
 
 		if (other.tag == "artifact") 
 		{
-			SceneManager.LoadScene ("GameWin");
+			SceneManager.LoadScene ("Winning");
 		}
  	}
 }
