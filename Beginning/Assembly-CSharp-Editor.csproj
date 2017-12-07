@@ -57,6 +57,7 @@
      <None Include="Assets\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Simple.shader" />
      <None Include="Assets\Standard Assets\Environment\Water (Basic)\Shaders\FXWaterBasic.shader" />
      <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
+     <None Include="Assets\shader\SimpleCloudSystem by RM\SCS Instructions.txt" />
      <None Include="Assets\shader\ParticleLight\Shader\AdditiveMask.shader" />
      <None Include="Assets\Standard Assets\Environment\Water\Water\Shaders\FXWaterPro.shader" />
      <None Include="Assets\torch\readme.txt" />
@@ -69,6 +70,7 @@
      <None Include="Assets\Standard Assets\Characters\RollerBall\RollerBallGuidelines.txt" />
      <None Include="Assets\VertexColorTrees\Shaders\VertexColorUnlit.shader" />
      <None Include="Assets\ProjectSettings\ProjectVersion.txt" />
+     <None Include="Assets\shader\SimpleCloudSystem by RM\Read Me.txt" />
  <Reference Include="UnityEditor.Advertisements">
  <HintPath>C:/Program Files/unity3D/Editor/Data/UnityExtensions/Unity/Advertisements/Editor/UnityEditor.Advertisements.dll</HintPath>
  </Reference>
@@ -144,6 +146,8 @@
       <Project>{AD24CE7C-C4BF-D097-0F27-457A78D81837}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
     <ProjectReference Include="Assembly-CSharp.csproj">
       <Project>{C601D800-CB46-258B-7A5B-8866D79F699D}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
+    <ProjectReference Include="Assembly-UnityScript.csproj">
+      <Project>{F723D1F2-7BF9-2613-C00E-EFF02B0EF1FA}</Project>      <Name>Assembly-UnityScript</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
